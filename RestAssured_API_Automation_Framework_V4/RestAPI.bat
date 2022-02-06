@@ -1,0 +1,2 @@
+cd D:\JAVA_TUTORIAL\RestAssured_API_Automation_Framework_V4
+mvn clean install

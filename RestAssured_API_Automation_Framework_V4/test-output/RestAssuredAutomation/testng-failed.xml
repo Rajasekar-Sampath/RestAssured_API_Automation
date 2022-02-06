@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAssuredAutomation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.RestAssuredAutomation.Utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="RestAssured_API(failed)">
+    <classes>
+      <class name="com.RestAssuredAutomation.TestCases.TC004_Put_Employee_Record">
+        <methods>
+          <include name="TearDown"/>
+          <include name="updateEmpRecord"/>
+          <include name="setup"/>
+          <include name="checkContentType"/>
+          <include name="checkServerType"/>
+          <include name="checkStatusLine"/>
+          <include name="checkContentEncoding"/>
+        </methods>
+      </class> <!-- com.RestAssuredAutomation.TestCases.TC004_Put_Employee_Record -->
+      <class name="com.RestAssuredAutomation.TestCases.TC003_Post_Employee_Record">
+        <methods>
+          <include name="checkStatusLine"/>
+          <include name="createEmployee"/>
+          <include name="checkServerType"/>
+          <include name="checkContentLength"/>
+          <include name="setup"/>
+          <include name="TearDown"/>
+          <include name="checkStatusCode"/>
+          <include name="getResponseBody"/>
+        </methods>
+      </class> <!-- com.RestAssuredAutomation.TestCases.TC003_Post_Employee_Record -->
+      <class name="com.RestAssuredAutomation.TestCases.TC005_Delete_Employee_Record">
+        <methods>
+          <include name="checkStatusLine"/>
+          <include name="checkContentType"/>
+          <include name="DeleteEmpRecord"/>
+          <include name="checkContentEncoding"/>
+          <include name="checkServerType"/>
+          <include name="setup"/>
+          <include name="checkResponseBody"/>
+          <include name="checkResponseTime"/>
+          <include name="checkStatusCode"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.RestAssuredAutomation.TestCases.TC005_Delete_Employee_Record -->
+      <class name="com.RestAssuredAutomation.TestCases.TC001_Get_All_Employees">
+        <methods>
+          <include name="checkServerType"/>
+          <include name="getAllEmployees"/>
+          <include name="checkStatusLine"/>
+          <include name="setup"/>
+          <include name="checkStatusCode"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.RestAssuredAutomation.TestCases.TC001_Get_All_Employees -->
+      <class name="com.RestAssuredAutomation.TestCases.TC002_Get_Single_Employee_Record">
+        <methods>
+          <include name="TearDown"/>
+          <include name="checkContentEncoding"/>
+          <include name="checkStatusCode"/>
+          <include name="getResponseBody"/>
+          <include name="setup"/>
+          <include name="checkStatusLine"/>
+          <include name="checkContentType"/>
+          <include name="checkServerType"/>
+          <include name="getAllEmployees"/>
+        </methods>
+      </class> <!-- com.RestAssuredAutomation.TestCases.TC002_Get_Single_Employee_Record -->
+    </classes>
+  </test> <!-- RestAssured_API(failed) -->
+</suite> <!-- Failed suite [RestAssuredAutomation] -->
