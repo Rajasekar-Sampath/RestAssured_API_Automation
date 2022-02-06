@@ -20,7 +20,7 @@ public class BaseClass {
     public void setup() {
     	
     	logger = Logger.getLogger("RestAssured_API_Automation_Framework_V4");
-    	PropertyConfigurator.configure("Log4j.properties");
+    	PropertyConfigurator.configure("log4j.properties");
     	logger.setLevel(Level.DEBUG);
     	
     	
