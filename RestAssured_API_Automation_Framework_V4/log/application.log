@@ -887,3 +887,269 @@
 2022-02-06 16:12:23,396 [main] INFO RestAssured_API_Automation_Framework_V4 - *********Checking Status Line**********
 2022-02-06 16:12:23,396 [main] INFO RestAssured_API_Automation_Framework_V4 - The statusline is:HTTP/1.1 200 OK
 2022-02-06 16:12:23,396 [main] INFO RestAssured_API_Automation_Framework_V4 - ***********Finished TC005_Delete_Employee_Record*************
+2022-02-06 17:18:08,675 [main] INFO RestAssured_API_Automation_Framework_V4 - ********Started TC001_Get_All_Employees**********
+2022-02-06 17:18:15,041 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Content Encoding*********
+2022-02-06 17:18:15,041 [main] INFO RestAssured_API_Automation_Framework_V4 - The ContentEncoding is:gzip
+2022-02-06 17:18:15,046 [main] INFO RestAssured_API_Automation_Framework_V4 - ********Checking Content Length*********
+2022-02-06 17:18:15,046 [main] INFO RestAssured_API_Automation_Framework_V4 - The contentlength is:588
+2022-02-06 17:18:15,047 [main] INFO RestAssured_API_Automation_Framework_V4 - ********Checking Content-Type*********
+2022-02-06 17:18:15,047 [main] INFO RestAssured_API_Automation_Framework_V4 - The ContentType is:text/html; charset=UTF-8
+2022-02-06 17:18:15,048 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Response Time********
+2022-02-06 17:18:15,048 [main] INFO RestAssured_API_Automation_Framework_V4 - The responseTime is:2860
+2022-02-06 17:18:15,050 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Server Type*********
+2022-02-06 17:18:15,051 [main] INFO RestAssured_API_Automation_Framework_V4 - The serverType is:nginx
+2022-02-06 17:18:15,057 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Status Code********
+2022-02-06 17:18:15,057 [main] INFO RestAssured_API_Automation_Framework_V4 - =======The StatusCode is:429
+2022-02-06 17:18:15,059 [main] INFO RestAssured_API_Automation_Framework_V4 - *********Checking Status Line**********
+2022-02-06 17:18:15,059 [main] INFO RestAssured_API_Automation_Framework_V4 - The statusline is:HTTP/1.1 429 Too Many Requests
+2022-02-06 17:18:15,060 [main] INFO RestAssured_API_Automation_Framework_V4 - ********Checing cookies********
+2022-02-06 17:18:15,061 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Getting ResponseBody********
+2022-02-06 17:18:15,090 [main] INFO RestAssured_API_Automation_Framework_V4 - ++++++++The responseBody is:<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-02-06 17:18:15,091 [main] INFO RestAssured_API_Automation_Framework_V4 - ***********Finished TC001_Get_All_Employees*************
+2022-02-06 17:18:15,103 [main] INFO RestAssured_API_Automation_Framework_V4 - ********Started TC002_Get_Single_Employee_Record**********
+2022-02-06 17:18:21,663 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Content Encoding*********
+2022-02-06 17:18:21,663 [main] INFO RestAssured_API_Automation_Framework_V4 - The ContentEncoding is:null
+2022-02-06 17:18:21,666 [main] INFO RestAssured_API_Automation_Framework_V4 - ********Checking Content-Type*********
+2022-02-06 17:18:21,666 [main] INFO RestAssured_API_Automation_Framework_V4 - The ContentType is:application/json
+2022-02-06 17:18:21,667 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Response Time********
+2022-02-06 17:18:21,667 [main] INFO RestAssured_API_Automation_Framework_V4 - The responseTime is:3545
+2022-02-06 17:18:21,668 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Server Type*********
+2022-02-06 17:18:21,668 [main] INFO RestAssured_API_Automation_Framework_V4 - The serverType is:nginx
+2022-02-06 17:18:21,669 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Status Code********
+2022-02-06 17:18:21,669 [main] INFO RestAssured_API_Automation_Framework_V4 - =======The StatusCode is:404
+2022-02-06 17:18:21,670 [main] INFO RestAssured_API_Automation_Framework_V4 - *********Checking Status Line**********
+2022-02-06 17:18:21,671 [main] INFO RestAssured_API_Automation_Framework_V4 - The statusline is:HTTP/1.1 404 Not Found
+2022-02-06 17:18:21,672 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Getting ResponseBody********
+2022-02-06 17:18:21,673 [main] INFO RestAssured_API_Automation_Framework_V4 - ++++++++The responseBody is:{"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+2022-02-06 17:18:21,674 [main] INFO RestAssured_API_Automation_Framework_V4 - ***********Finished TC002_Get_Single_Employee_Record*************
+2022-02-06 17:18:21,686 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Started TC003_Post_Employee_Record*******
+2022-02-06 17:18:28,184 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Content Encoding*********
+2022-02-06 17:18:28,184 [main] INFO RestAssured_API_Automation_Framework_V4 - The ContentEncoding is:gzip
+2022-02-06 17:18:28,185 [main] INFO RestAssured_API_Automation_Framework_V4 - ********Checking Content Length*********
+2022-02-06 17:18:28,185 [main] INFO RestAssured_API_Automation_Framework_V4 - The contentlength is:588
+2022-02-06 17:18:28,186 [main] WARN RestAssured_API_Automation_Framework_V4 - The contenntlength less than 1500
+2022-02-06 17:18:28,186 [main] INFO RestAssured_API_Automation_Framework_V4 - ********Checking Content-Type*********
+2022-02-06 17:18:28,187 [main] INFO RestAssured_API_Automation_Framework_V4 - The ContentType is:text/html; charset=UTF-8
+2022-02-06 17:18:28,187 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Response Time********
+2022-02-06 17:18:28,189 [main] INFO RestAssured_API_Automation_Framework_V4 - The responseTime is:3475
+2022-02-06 17:18:28,191 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Server Type*********
+2022-02-06 17:18:28,191 [main] INFO RestAssured_API_Automation_Framework_V4 - The serverType is:nginx
+2022-02-06 17:18:28,191 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Status Code********
+2022-02-06 17:18:28,192 [main] INFO RestAssured_API_Automation_Framework_V4 - =======The StatusCode is:429
+2022-02-06 17:18:28,193 [main] INFO RestAssured_API_Automation_Framework_V4 - *********Checking Status Line**********
+2022-02-06 17:18:28,193 [main] INFO RestAssured_API_Automation_Framework_V4 - The statusline is:HTTP/1.1 429 Too Many Requests
+2022-02-06 17:18:28,194 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Getting ResponseBody********
+2022-02-06 17:18:28,194 [main] INFO RestAssured_API_Automation_Framework_V4 - ++++++++The responseBody is:<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-02-06 17:18:28,195 [main] INFO RestAssured_API_Automation_Framework_V4 - ***********Finished TC003_Post_Employee_Record*************
+2022-02-06 17:18:28,223 [main] INFO RestAssured_API_Automation_Framework_V4 - ***********Started TC003_Put_Employee_Record*************
+2022-02-06 17:18:35,834 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Content Encoding*********
+2022-02-06 17:18:35,835 [main] INFO RestAssured_API_Automation_Framework_V4 - The ContentEncoding is:null
+2022-02-06 17:18:35,836 [main] INFO RestAssured_API_Automation_Framework_V4 - ********Checking Content-Type*********
+2022-02-06 17:18:35,836 [main] INFO RestAssured_API_Automation_Framework_V4 - The ContentType is:application/json
+2022-02-06 17:18:35,837 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Response Time********
+2022-02-06 17:18:35,837 [main] INFO RestAssured_API_Automation_Framework_V4 - The responseTime is:2598
+2022-02-06 17:18:35,838 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Server Type*********
+2022-02-06 17:18:35,838 [main] INFO RestAssured_API_Automation_Framework_V4 - The serverType is:nginx
+2022-02-06 17:18:35,839 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Status Code********
+2022-02-06 17:18:35,839 [main] INFO RestAssured_API_Automation_Framework_V4 - =======The StatusCode is:200
+2022-02-06 17:18:35,840 [main] INFO RestAssured_API_Automation_Framework_V4 - *********Checking Status Line**********
+2022-02-06 17:18:35,840 [main] INFO RestAssured_API_Automation_Framework_V4 - The statusline is:HTTP/1.1 200 OK
+2022-02-06 17:18:35,841 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Getting ResponseBody********
+2022-02-06 17:18:35,841 [main] INFO RestAssured_API_Automation_Framework_V4 - ++++++++The responseBody is:{"status":"success","data":{"name":"Johno","salary":"69185","age":"40"},"message":"Successfully! Record has been updated."}
+2022-02-06 17:18:35,842 [main] INFO RestAssured_API_Automation_Framework_V4 - ***********Finished TC003_Put_Employee_Record*************
+2022-02-06 17:18:35,854 [main] INFO RestAssured_API_Automation_Framework_V4 - **********Started TC005_Delete_Employee_Record**********
+2022-02-06 17:18:39,152 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Content Encoding*********
+2022-02-06 17:18:39,152 [main] INFO RestAssured_API_Automation_Framework_V4 - The ContentEncoding is:gzip
+2022-02-06 17:18:39,153 [main] INFO RestAssured_API_Automation_Framework_V4 - ********Checking Content-Type*********
+2022-02-06 17:18:39,153 [main] INFO RestAssured_API_Automation_Framework_V4 - The ContentType is:text/html; charset=UTF-8
+2022-02-06 17:18:39,153 [main] INFO RestAssured_API_Automation_Framework_V4 - *********Catching the ResponseBody************
+2022-02-06 17:18:39,153 [main] INFO RestAssured_API_Automation_Framework_V4 - *********The Status Code is:<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-02-06 17:18:39,155 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Response Time********
+2022-02-06 17:18:39,155 [main] INFO RestAssured_API_Automation_Framework_V4 - The responseTime is:1332
+2022-02-06 17:18:39,156 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Server Type*********
+2022-02-06 17:18:39,156 [main] INFO RestAssured_API_Automation_Framework_V4 - The serverType is:nginx
+2022-02-06 17:18:39,156 [main] INFO RestAssured_API_Automation_Framework_V4 - *******Checking Status Code********
+2022-02-06 17:18:39,156 [main] INFO RestAssured_API_Automation_Framework_V4 - =======The StatusCode is:429
+2022-02-06 17:18:39,157 [main] INFO RestAssured_API_Automation_Framework_V4 - *********Checking Status Line**********
+2022-02-06 17:18:39,157 [main] INFO RestAssured_API_Automation_Framework_V4 - The statusline is:HTTP/1.1 429 Too Many Requests
+2022-02-06 17:18:39,157 [main] INFO RestAssured_API_Automation_Framework_V4 - ***********Finished TC005_Delete_Employee_Record*************

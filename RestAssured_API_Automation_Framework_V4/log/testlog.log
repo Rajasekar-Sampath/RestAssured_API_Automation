@@ -887,3 +887,269 @@ The serverType is:nginx
 *********Checking Status Line**********
 The statusline is:HTTP/1.1 200 OK
 ***********Finished TC005_Delete_Employee_Record*************
+********Started TC001_Get_All_Employees**********
+*******Checking Content Encoding*********
+The ContentEncoding is:gzip
+********Checking Content Length*********
+The contentlength is:588
+********Checking Content-Type*********
+The ContentType is:text/html; charset=UTF-8
+*******Checking Response Time********
+The responseTime is:2860
+*******Checking Server Type*********
+The serverType is:nginx
+*******Checking Status Code********
+=======The StatusCode is:429
+*********Checking Status Line**********
+The statusline is:HTTP/1.1 429 Too Many Requests
+********Checing cookies********
+*******Getting ResponseBody********
+++++++++The responseBody is:<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+***********Finished TC001_Get_All_Employees*************
+********Started TC002_Get_Single_Employee_Record**********
+*******Checking Content Encoding*********
+The ContentEncoding is:null
+********Checking Content-Type*********
+The ContentType is:application/json
+*******Checking Response Time********
+The responseTime is:3545
+*******Checking Server Type*********
+The serverType is:nginx
+*******Checking Status Code********
+=======The StatusCode is:404
+*********Checking Status Line**********
+The statusline is:HTTP/1.1 404 Not Found
+*******Getting ResponseBody********
+++++++++The responseBody is:{"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+***********Finished TC002_Get_Single_Employee_Record*************
+*******Started TC003_Post_Employee_Record*******
+*******Checking Content Encoding*********
+The ContentEncoding is:gzip
+********Checking Content Length*********
+The contentlength is:588
+The contenntlength less than 1500
+********Checking Content-Type*********
+The ContentType is:text/html; charset=UTF-8
+*******Checking Response Time********
+The responseTime is:3475
+*******Checking Server Type*********
+The serverType is:nginx
+*******Checking Status Code********
+=======The StatusCode is:429
+*********Checking Status Line**********
+The statusline is:HTTP/1.1 429 Too Many Requests
+*******Getting ResponseBody********
+++++++++The responseBody is:<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+***********Finished TC003_Post_Employee_Record*************
+***********Started TC003_Put_Employee_Record*************
+*******Checking Content Encoding*********
+The ContentEncoding is:null
+********Checking Content-Type*********
+The ContentType is:application/json
+*******Checking Response Time********
+The responseTime is:2598
+*******Checking Server Type*********
+The serverType is:nginx
+*******Checking Status Code********
+=======The StatusCode is:200
+*********Checking Status Line**********
+The statusline is:HTTP/1.1 200 OK
+*******Getting ResponseBody********
+++++++++The responseBody is:{"status":"success","data":{"name":"Johno","salary":"69185","age":"40"},"message":"Successfully! Record has been updated."}
+***********Finished TC003_Put_Employee_Record*************
+**********Started TC005_Delete_Employee_Record**********
+*******Checking Content Encoding*********
+The ContentEncoding is:gzip
+********Checking Content-Type*********
+The ContentType is:text/html; charset=UTF-8
+*********Catching the ResponseBody************
+*********The Status Code is:<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+*******Checking Response Time********
+The responseTime is:1332
+*******Checking Server Type*********
+The serverType is:nginx
+*******Checking Status Code********
+=======The StatusCode is:429
+*********Checking Status Line**********
+The statusline is:HTTP/1.1 429 Too Many Requests
+***********Finished TC005_Delete_Employee_Record*************
